@@ -1,0 +1,129 @@
+.body {
+  background: hwb(25 35% 40%);
+  font-family:"Montserrat", sans-serif;
+}
+
+h1 {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+  font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+}
+
+
+button {
+  display: block;
+  margin: 0 auto;
+  border: 3px solid black;
+  background: antiquewhite;
+  font-size: 30px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: hwb(0 63% 20%);
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.box {
+  display:block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  background: rgb(189, 181, 181);
+  color:black;
+  padding: 40px;
+  border-radius: 5px;
+  text-align: justify;
+  width: 1200px;
+  height: 1300px;
+}
+.theme-button {
+  border: 2px solid black;
+  font-size: 18px;
+  background: white;
+  color: black;
+  padding: 5px 8px;
+  margin:0 auto;
+}
+
+.theme-button:hover {
+  color: black;
+  background: antiquewhite;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+
+
+li {
+  list-style: none;
+  text-align: justify;
+  margin: 15px auto;
+}
+
+img {
+  border-radius: 5px;
+  max-width: 200px;
+}
+
+.row img:hover {
+  transform: scale(1.1);
+  transition: all 300ms ease-in-out;
+}
+
+a {
+  align-content: center;
+  text-decoration: none;
+  color: black;
+}
+.here {
+  text-decoration: underline;
+  color:rgb(117, 111, 111);
+  font-weight: bold;
+}
+.dark {
+  background: black;
+  color: antiquewhite;
+}
+.dark .box {
+  background-color:black;
+  color: antiquewhite;
+}
+.dark a {
+  color: antiquewhite;
+}
+
+.link-video {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.row{ margin: 20px;}
+
+.facts{text-align: center;
+margin-top: 40px;}
+
+.footer {margin-top:80px ;
+  height: 60px;
+  padding: 15px;
+  color: rgb(94, 64, 64);
+  text-align: center;
+  font-size: small;
+}
+
+
+.header{  text-align: center;margin-top: 30px;}
+
+
+@media(max-width:600px){.body{text-align: center;}
+}
+
+
